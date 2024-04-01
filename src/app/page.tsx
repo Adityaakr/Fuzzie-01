@@ -15,7 +15,8 @@ export default function Home() {
     <>
       <main>
         <Navbar />
-        <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center  antialiased">
+        <section className="w-full  bg-neutral-950 rounded-md  
+        !overflow-visible relative flex flex-col items-center  antialiased">
           <div className="absolute inset-0  h-full 
           w-full items-center px-5 py-24 
           [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]"></div>
@@ -41,16 +42,16 @@ export default function Home() {
         </section>
 
         <InfiniteMovingCards
-          className="md:mt-[18rem] mt-[-100px]"
+          className="mt-5 md:mt-5 lg:mt-5"
           items={clients}
           direction="right"
           speed="slow"
         />
         <section>
-          <HeroParallax products={products}></HeroParallax>
+        <HeroParallax products={products}></HeroParallax>
         </section>
         <section>
-          <LampComponent/>
+        <LampComponent/>
           <div className="flex flex-wrap items-center justify-center
           flex-col md:flex-row gap-8 -mt-72">
             <CardContainer className="inter-var">
