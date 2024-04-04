@@ -40,7 +40,7 @@ export default function Home() {
             />
           </div>
         </section>
-
+        <div className="text-4xl m-6 text-center font-semibold text-gray-300 border-2 p-3">Our product Highlights</div>
         <InfiniteMovingCards
           className="mt-5 md:mt-5 lg:mt-5"
           items={clients}
