@@ -26,14 +26,14 @@ export default function Home() {
                 <div className="flex items-center flex-col">
                   <Button
                     size={'lg'}
-                    className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
+                    className="p-8 mb-8 md:mb-0 mt-5 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
                   >
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-500 to-neutral-600  md:text-center font-sans group-hover:bg-gradient-to-r group-hover:from-black goup-hover:to-black">
                       Start For Free Today
                     </span>
                   </Button>
                   <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
-                    Automate Your Work With Fuzzie
+                      Single click crosschain Crypto deposit
                   </h1>
                 </div>
               }
@@ -60,28 +60,14 @@ export default function Home() {
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
-                Hobby
-                <h2 className="text-6xl ">$0</h2>
+                
+                <h2 className="text-5xl ">Subscription based Teir</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
               >
-                Get a glimpse of what our software is capable of. Just a heads
-                up {"you'll"} never leave us after this!
-                <ul className="my-4 flex flex-col gap-2">
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />3 Free automations
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    100 tasks per month
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    Two-step Actions
-                  </li>
-                </ul>
+This could range from a free tier with limited options to a pro tier with access to all supported chains and potentially additional features like priority processing or advanced analytics.    
               </CardItem>
               <div className="flex justify-between items-center mt-8">
                 <CardItem
@@ -116,30 +102,16 @@ export default function Home() {
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
-               Pro plan
-                <h2 className="text-6xl ">$29</h2>
+               
+                <h2 className="text-5xl ">Transaction fees</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
                 className="text-neutral-500 
-                text-sm max-w-sm mt-2
+                text-lg max-w-sm mt-2
                  dark:text-neutral-300"
               >
-                Get a glimpse of what our software is capable of. Just a heads
-                up {"you'll"} never leave us after this!
-                <ul className="my-4 flex flex-col gap-2">
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />3 Free automations
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    100 tasks per month
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    Two-step Actions
-                  </li>
-                </ul>
+                Potentially implement a small transaction fee on each deposit made through UniEarn. This fee could be a flat rate or a percentage of the deposited amount.
               </CardItem>
               <div className="flex justify-between items-center mt-8">
                 <CardItem
@@ -169,28 +141,14 @@ export default function Home() {
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
-                Premium plan
-                <h2 className="text-6xl ">$99</h2>
+                <h2 className="text-5xl ">Premium Services</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
               >
-                Get a glimpse of what our software is capable of. Just a heads
-                up {"you'll"} never leave us after this!
-                <ul className="my-4 flex flex-col gap-2">
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />3 Free automations
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    100 tasks per month
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckIcon />
-                    Two-step Actions
-                  </li>
-                </ul>
+                
+                Consider offering premium services for a separate fee, such as access to exclusive DeFi vaults with higher potential returns or personalized investment strategies from experts
               </CardItem>
               <div className="flex justify-between items-center mt-8">
                 <CardItem
