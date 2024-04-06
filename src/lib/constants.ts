@@ -6,17 +6,17 @@ export const products = [
         {
           title: 'Moonbeam',
           link: 'https://gomoonbeam.com',
-          thumbnail: '/d2.png',
+          thumbnail: '/d5.png',
         },
         {
           title: 'Cursor',
           link: 'https://cursor.so',
-          thumbnail: '/dash.png',
+          thumbnail: '/d3.png',
         },
         {
           title: 'Rogue',
           link: 'https://userogue.com',
-          thumbnail: '/d1.png',
+          thumbnail: '/d2.png',
         },
       
         {
@@ -27,18 +27,18 @@ export const products = [
         {
           title: 'Editrix AI',
           link: 'https://editrix.ai',
-          thumbnail: '/d1.png',
+          thumbnail: '/d3.png',
         },
         {
           title: 'Pixel Perfect',
           link: 'https://app.pixelperfect.quest',
-          thumbnail: '/d2.png',
+          thumbnail: '/d3.png',
         },
       
         {
           title: 'Algochurn',
           link: 'https://algochurn.com',
-          thumbnail: '/d1.png',
+          thumbnail: '/d3.png',
         },
         {
           title: 'Aceternity UI',
@@ -53,7 +53,7 @@ export const products = [
         {
           title: 'SmartBridge',
           link: 'https://smartbridgetech.com',
-          thumbnail: '/dash.png',
+          thumbnail: '/d3.png',
         },
         {
           title: 'Renderwork Studio',
