@@ -61,7 +61,8 @@ export default function Home() {
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
                 
-                <h2 className="text-5xl ">Subscription based Teir</h2>
+                <h2 className="text-5xl ">Subscription 
+                <br>based Teir</br></h2>
               </CardItem>
               <CardItem
                 translateZ="60"
