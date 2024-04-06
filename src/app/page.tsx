@@ -62,7 +62,8 @@ export default function Home() {
               >
                 
                 <h2 className="text-5xl ">Subscription 
-                <br>based Teir</br></h2>
+                <br/>based Teir
+                </h2>
               </CardItem>
               <CardItem
                 translateZ="60"
