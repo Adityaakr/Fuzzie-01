@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # Fuzzie
 # Fuzzie-Auto
 # Fuzzie-01
+# Fuzzie-01

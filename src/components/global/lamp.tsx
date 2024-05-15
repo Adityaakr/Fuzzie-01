@@ -15,10 +15,10 @@ export function LampComponent() {
           duration: 0.8,
           ease: 'easeInOut',
         }}
-        className="mt-20 bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-9xl font-medium tracking-tight text-transparent md:text-8xl"
+        className="mt-20 bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-6xl font-medium tracking-tight text-transparent md:text-8xl"
       >
-        Revenue 
-        <br /> Model
+        Plan that fits
+        <br /> you best!
       </motion.h1>
     </LampContainer>
   )
