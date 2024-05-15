@@ -1,3 +1,5 @@
+// ./src/app/(main)/(pages)/settings/_components/uploadcare-button.tsx
+
 'use client'
 import React, { useEffect, useRef } from 'react'
 import * as LR from '@uploadcare/blocks'
@@ -11,7 +13,7 @@ LR.registerBlocks(LR)
 
 const UploadCareButton = ({ onUpload }: Props) => {
   const router = useRouter()
-  const ctxProviderRef = useRef<LR.UploadCtxProvider | null>(null)
+  const ctxProviderRef = useRef<any>(null) // Using any for type assertion
 
   useEffect(() => {
     const handleUpload = async (e: any) => {
@@ -21,12 +23,12 @@ const UploadCareButton = ({ onUpload }: Props) => {
       }
     }
 
-    if (ctxProviderRef.current) {
+    if (ctxProviderRef.current && typeof ctxProviderRef.current.addEventListener === 'function') {
       ctxProviderRef.current.addEventListener('file-upload-success', handleUpload)
 
       // Cleanup function to remove the event listener when component unmounts
       return () => {
-        if (ctxProviderRef.current) {
+        if (ctxProviderRef.current && typeof ctxProviderRef.current.removeEventListener === 'function') {
           ctxProviderRef.current.removeEventListener('file-upload-success', handleUpload)
         }
       }

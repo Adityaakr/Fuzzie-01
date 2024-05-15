@@ -19,7 +19,8 @@ type FormFieldContextValue<
   TFieldValues extends FieldValues = FieldValues,
   TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
 > = {
-  name: TName
+  name: TName,
+  error?: any,
 }
 
 const FormFieldContext = React.createContext<FormFieldContextValue>(
@@ -31,9 +32,9 @@ const FormField = <
   TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
 >({
   ...props
-}: ControllerProps<TFieldValues, TName>) => {
+}: ControllerProps<TFieldValues, TName> & { error?: any }) => { // Add error to ControllerProps
   return (
-    <FormFieldContext.Provider value={{ name: props.name }}>
+    <FormFieldContext.Provider value={{ name: props.name, error: props.error }}> {/* Pass error from props */}
       <Controller {...props} />
     </FormFieldContext.Provider>
   )
@@ -42,8 +43,6 @@ const FormField = <
 const useFormField = () => {
   const fieldContext = React.useContext(FormFieldContext)
   const itemContext = React.useContext(FormItemContext)
-
-
 
   if (!fieldContext) {
     throw new Error("useFormField should be used within <FormField>")
@@ -57,7 +56,7 @@ const useFormField = () => {
     formItemId: `${id}-form-item`,
     formDescriptionId: `${id}-form-item-description`,
     formMessageId: `${id}-form-item-message`,
-
+    error: fieldContext.error, // Include error property
   }
 }
 
